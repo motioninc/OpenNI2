@@ -62,7 +62,7 @@ class NativeMethods {
 	static public final int DEVICE_COMMAND_SEEK = 1; // OniSeek
 
 	static {
-		System.loadLibrary("OpenNI2.jni");
+		System.loadLibrary("swara");
 	}
 
 	static void checkReturnStatus(int status) {

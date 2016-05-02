@@ -20,6 +20,7 @@
 *****************************************************************************/
 #include "org_openni_android_OpenNIView.h"
 #include <OpenNI.h>
+#include <XnPlatform.h>
 
 #if (ONI_PLATFORM == ONI_PLATFORM_ANDROID_ARM)
 

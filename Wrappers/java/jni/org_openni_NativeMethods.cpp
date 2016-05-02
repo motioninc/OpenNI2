@@ -53,7 +53,7 @@ public:
 	{
 		if (JNI_EDETACHED == g_pVM->GetEnv((void**)&m_pEnv, JNI_VERSION_1_2))
 		{
-			g_pVM->AttachCurrentThread((void**)&m_pEnv, NULL);
+			g_pVM->AttachCurrentThread(&m_pEnv, NULL);
 			m_bShouldDetach = TRUE;
 		}
 	}

@@ -53,7 +53,7 @@ public class OpenNIHelper {
 	static {
 		System.loadLibrary("usb");
 		System.loadLibrary("OpenNI2");
-		System.loadLibrary("OpenNI2.jni");
+		System.loadLibrary("swara");
 	}
 
 	private Context mAndroidContext;
